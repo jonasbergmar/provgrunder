@@ -10,14 +10,3 @@
   width: 100px;
   height: 100px;
 }
-
-#resultText {
-  width: 100px;
-  height: 50px;
-  border: 1px solid black;
-}
-
-#btnContainer {
-  display: flex;
-  flex-direction: column;
-}

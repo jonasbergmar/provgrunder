@@ -10,3 +10,6 @@ function addBgColor(element, bgColor) {
 }
 
 addBgColor(element, "#ff0000"); // Ska göra elementet rött
+
+const element2 = document.querySelector("#element2");
+addBgColor(element2, "#00ff00");

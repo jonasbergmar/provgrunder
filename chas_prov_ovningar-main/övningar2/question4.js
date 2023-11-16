@@ -7,7 +7,9 @@ const cars = [
 ];
 
 const fastCars = cars.map((car) => {
-  return { ...car, speed: 100 }; // Gör en kopia av arrayen med spread operator. ...car plockar type och ändrar bara speed.
+  // car.speed = 100;
+  // return car;
+  return { ...car, speed: 100 };
 });
 
 console.log(fastCars);

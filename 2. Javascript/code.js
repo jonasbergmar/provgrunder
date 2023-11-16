@@ -1,5 +1,4 @@
-// 1. Variabler och typer:
-
+// Variabler och Typer
 let myBoolean = true;
 let myNull = null;
 let myUndefined = undefined;
@@ -10,8 +9,7 @@ let myArray = [1, 2, 3];
 
 console.log(myString);
 
-// 2. CRUD-operationer på variabler:
-
+// CRUD-operationer på Variabler
 let myVariable = "Initial value";
 console.log(myVariable);
 
@@ -23,7 +21,7 @@ console.log(myVariable);
 myVariable = null;
 console.log(myVariable);
 
-// 3. CRUD-operationer på objekt och arrayer:
+// CRUD-operationer på Objekt och Arrayer
 let myObject = { key: "value" };
 
 // Create
@@ -41,8 +39,7 @@ console.log(myObject);
 delete myObject.key;
 console.log(myObject);
 
-// 4. Operatorer:
-
+// Operatorer
 let x = 10;
 let y = 5;
 
@@ -60,7 +57,7 @@ let isLess = x < y;
 let isGreaterOrEqual = x >= y;
 let isLessOrEqual = x <= y;
 
-// 5. Booleans och if-satser:
+// Booleans och If-satser
 let condition1 = true;
 let condition2 = false;
 
@@ -72,8 +69,7 @@ if (condition1 && condition2) {
   console.log("Inget av villkoren är sant.");
 }
 
-// 6. Strängar:
-
+// Strängar
 let firstName = "John";
 let lastName = "Doe";
 let fullName = firstName + " " + lastName; // Alternativt: `${firstName} ${lastName}`
@@ -95,8 +91,7 @@ for (let i = 0; i < fullName.length; i++) {
 let firstLetter = fullName[0];
 console.log(firstLetter);
 
-// 7. Arrayer:
-
+// Arrayer
 let myArray = [1, 2, 3, 4, 5];
 
 // Create
@@ -123,8 +118,7 @@ myArray.forEach((item) => console.log(item));
 let filteredArray = myArray.filter((item) => item > 3);
 console.log(filteredArray);
 
-// 8. Objekt:
-
+// Objekt
 let myObject = { key1: "value1", key2: "value2" };
 
 // Create
@@ -144,7 +138,7 @@ for (let key in myObject) {
   console.log(`${key}: ${myObject[key]}`);
 }
 
-// 9. Funktioner:
+// Funktioner
 // Skapa en funktion
 function greet(name) {
   console.log(`Hej, ${name}!`);
@@ -168,7 +162,7 @@ function myFunction() {
 console.log(outsideVariable); // Ok
 // console.log(insideVariable); // Error: undefined
 
-// 10. Spread och Destructure:
+// Spread och Destructure
 // Spread för arrayer
 let arr1 = [1, 2, 3];
 let arr2 = [...arr1, 4, 5];
@@ -187,8 +181,8 @@ console.log(obj2);
 let { key1, key2, ...otherKeys } = obj2;
 console.log(key1, key2, otherKeys);
 
-// DOM Manipulation:
-// 1. CRUD-operationer på HTML-element:
+// DOM Manipulation
+// CRUD-operationer på HTML-element
 // Skapa ett nytt element
 let newElement = document.createElement("p");
 newElement.textContent = "Detta är ett nytt element.";
@@ -202,8 +196,7 @@ newElement.textContent = "Uppdaterat innehåll.";
 // Ta bort det nya elementet
 document.body.removeChild(newElement);
 
-// 2. Ladda ner och skapa HTML från data:
-// Exempel med fetch
+// Ladda ner och skapa HTML från data
 fetch("https://jsonplaceholder.typicode.com/posts/1")
   .then((response) => response.json())
   .then((data) => {
@@ -213,7 +206,7 @@ fetch("https://jsonplaceholder.typicode.com/posts/1")
   })
   .catch((error) => console.error("Error:", error));
 
-// 3. Eventhantering:
+// Eventhantering
 // Skapa en knapp
 let myButton = document.createElement("button");
 myButton.textContent = "Klicka på mig";
@@ -226,9 +219,8 @@ myButton.addEventListener("click", function () {
 // Lägg till knappen i body
 document.body.appendChild(myButton);
 
-// Fetch, Promise, Then, Async/Await:
-// 1. Ladda ner data med Fetch:
-// Exempel med fetch och async/await
+// Fetch, Promise, Then, Async/Await
+// Ladda ner data med Fetch och använda async/await
 async function fetchData() {
   try {
     let response = await fetch("https://jsonplaceholder.typicode.com/todos/1");
@@ -241,8 +233,8 @@ async function fetchData() {
 
 fetchData();
 
-// Problemlösning:
-// 1. Använd teknikerna för problemlösning:
+// Problemlösning
+// Använd teknikerna för problemlösning
 // Exempel: Enkel to-do-lista med local storage
 let todos = JSON.parse(localStorage.getItem("todos")) || [];
 
