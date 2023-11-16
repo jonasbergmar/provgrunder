@@ -1,0 +1,105 @@
+Checklista
+webbutveckling grundkurs
+
+Html/Css
+
+Kunna skapa en webbsida med html/css utifrån en förlaga eller kunna återskapa en webbsida som finns på nätet.
+
+Kunna använda flexbox eller grid för att skapa layouter
+
+Kunna anpassa webbsidor till olika storlekar på skärmen
+
+Kunna utföra enklare animationer med css transition
+
+
+
+
+Javascript
+
+
+
+Variabler
+Kunna skapa variabler med let och const
+Känna till olika typer av variabler: boolean, null, undefined, string, number, object, array
+
+Kunna utföra alla CRUD operationer på variabler
+Kunna utföra alla CRUD operationer på object och arrayer och även nestlade object och arrayer.
+
+
+Operatorer
+Matte:  +  -   /   * 
+Jämförelser:   <   >   >=   <=   ==   != 
+Öka, minska: ++  –
+Tilldelning:  =  +=  -=   *=   /=
+Negation: !
+
+
+
+
+
+Boolean
+Kunna utföra if-satser
+Kunna lägga ihop jämnförelser med && och ||
+
+
+
+Strängar
+Kunna sätta ihop strängar med variabler med +:
+Kunna sätta ihop strängar med variabler med backticks ``
+Kunna utföra strängfunktioner som t.ex: substring, upperCase
+Kunna göra for-loopar för att läsa alla bokstäver i en sträng
+Kunna plocka ut bokstäver ur strängar med bracket-notation tex.
+
+const word = “hej”
+const letter = word[0]; // letter innehåller “h”
+
+
+Arrayer
+Kunna göra alla CRUD operationer på arrayer
+Loopa igenom arrayer med for
+Loopa igenom arrayer med forEach och map
+Filterara en array med filter
+
+
+Objekt
+Kunna utföra alla CRUD operationer på object
+Läsa properties från object med punkt-notation och med bracket-notation
+Använda variabler för att läsa properties i object
+Kunna loopa igenom object med for in loop
+
+
+
+Funktioner
+Kunna skapa funktioner för att återanvända kod
+Kunna skapa arrow-functions
+Förstå hue scope påverkar hur variabler syns innanför och utanför funktioner
+Först hur return funkar 
+
+Spread och Destructure
+Förstå och kunna använda spread och destructure för arrayer och objekt.
+
+
+
+
+
+
+Dom manipulation
+Kunna utföra alla CRUD operationer på html-element med javascript
+Kunna ladda ner data från nätet och skapa html-elemet utifrån datat
+Kunna skapa kod som anropas vid events, som t.ex. click
+
+
+
+
+Fetch, promise, then, async/await
+Kunna ladda ner data med fetch
+
+
+
+Problemlösning
+Kunna använda teknikerna ovan för att lösa enklare problem
+
+
+
+
+
