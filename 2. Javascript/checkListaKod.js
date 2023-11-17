@@ -1,3 +1,7 @@
+//ALLA REPON https://github.com/davidshore/chas_webbutveckling_grundkurs/tree/main
+
+// https://github.com/davidshore/chas_webbutveckling_grundkurs/tree/main/v42-js-intro-variabler-funktioner
+
 // Variabler och Typer
 let myBoolean = true;
 let myNull = null;
@@ -20,6 +24,8 @@ console.log(myVariable);
 // Delete
 myVariable = null;
 console.log(myVariable);
+
+// https://github.com/davidshore/chas_webbutveckling_grundkurs/tree/main/v43-arrayer-objekt
 
 // CRUD-operationer på Objekt och Arrayer
 let myObject = { key: "value" };
@@ -162,6 +168,8 @@ function myFunction() {
 console.log(outsideVariable); // Ok
 // console.log(insideVariable); // Error: undefined
 
+// https://github.com/davidshore/chas_webbutveckling_grundkurs/tree/main/v44-scope-spread-destructure
+
 // Spread och Destructure
 // Spread för arrayer
 let arr1 = [1, 2, 3];
@@ -180,6 +188,8 @@ console.log(obj2);
 // Destructure för objekt
 let { key1, key2, ...otherKeys } = obj2;
 console.log(key1, key2, otherKeys);
+
+// https://github.com/davidshore/chas_webbutveckling_grundkurs/tree/main/v45-dom-api
 
 // DOM Manipulation
 // CRUD-operationer på HTML-element
