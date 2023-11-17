@@ -17,7 +17,6 @@ main {
   display: flex;
   justify-content: space-between;
 }
-/* 2. Flexbox eller Grid: */
 
 /* 4. CSS-animationer: */
 button {
@@ -28,7 +27,6 @@ button:hover {
   background-color: #4285f4;
   color: white;
 }
-/* 4. CSS-animationer: */
 
 /* 3. Responsiv design: */
 
@@ -37,4 +35,3 @@ button:hover {
     grid-template-rows: auto auto auto;
   }
 }
-/* 3. Responsiv design: */
