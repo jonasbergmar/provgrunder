@@ -244,28 +244,46 @@ async function fetchData() {
 fetchData();
 
 // Problemlösning
-// Använd teknikerna för problemlösning
-// Exempel: Enkel to-do-lista med local storage
+// En enkel to-do-lista med local storage
+
+// Hämta befintliga todos från local storage, om det finns några
 let todos = JSON.parse(localStorage.getItem("todos")) || [];
 
-function addTodo(todo) {
-  todos.push(todo);
-  localStorage.setItem("todos", JSON.stringify(todos));
+// Funktion för att lägga till en ny todo
+function addTodo(todoText) {
+  todos.push(todoText);
+  updateLocalStorage();
 }
 
+// Funktion för att ta bort en todo baserat på dess index
 function removeTodo(index) {
   todos.splice(index, 1);
-  localStorage.setItem("todos", JSON.stringify(todos));
+  updateLocalStorage();
 }
 
+// Funktion för att visa alla todos i konsolen
 function displayTodos() {
   todos.forEach((todo, index) => {
     console.log(`${index + 1}. ${todo}`);
   });
 }
 
+// Uppdatera local storage med de aktuella todos
+function updateLocalStorage() {
+  localStorage.setItem("todos", JSON.stringify(todos));
+}
+
+// Exempel på användning:
+
+// Lägg till nya todos
 addTodo("Gå ut med hunden");
 addTodo("Läsa en bok");
+
+// Visa alla todos
 displayTodos();
+
+// Ta bort en todo (t.ex. den första)
 removeTodo(0);
+
+// Visa de uppdaterade todos
 displayTodos();
