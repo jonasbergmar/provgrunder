@@ -3,9 +3,9 @@
 // ord börjar med en stor bokstav.
 function capitalizeWords(arr) {
   return arr.map((word) => {
-    const capitalizedFirst = word.charAt(0).toUpperCase();
-    const rest = word.slice(1).toLowerCase();
-    return capitalizedFirst + rest;
+    const firstLetter = word.charAt(0).toUpperCase();
+    const restOfWord = word.slice(1).toLowerCase();
+    return firstLetter + restOfWord;
   });
 }
 
