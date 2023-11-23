@@ -8,3 +8,19 @@ function removeDuplicates(arr) {
   return arr.filter((item, index) => arr.indexOf(item) === index);
 }
 console.log(removeDuplicates(arr2));
+
+//ELLER
+//davids sätt
+
+function removeDuplicates(arr) {
+  const unique = [];
+
+  arr.forEach((item) => {
+    if (!unique.includes(item)) {
+      unique.push(item);
+    }
+  });
+  return unique;
+}
+
+console.log(removeDuplicates(["hej", "hej", "hopp"]));

@@ -14,14 +14,15 @@
 
 // console.log(findLongestWord("The quick brown fox jumped over the lazy dog"));
 
-function findLongestWord(str) {
-  let strSplit = str.split(" ");
+function findLongestWord(sentence) {
+  //split delar upp meningen i ord på.
+  let words = sentence.split(" ");
   let longestWord = "";
-  for (let i = 0; i < strSplit.length; i++) {
-    if (strSplit[i].length > longestWord.length) {
-      longestWord = strSplit[i];
+  words.forEach((word) => {
+    if (word.length > longestWord.length) {
+      longestWord = word;
     }
-  }
+  });
   return longestWord;
 }
 
